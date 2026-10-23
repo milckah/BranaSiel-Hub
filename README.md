@@ -1,8 +1,8 @@
-# Branna — University Art Club Management & Showcase Platform
+# BranaSiel Hub — University Art Club Management & Showcase Platform
 
 ## About the Project
 
-Branna is a web-based platform designed to help university art club members share their artwork, discover creative inspiration, and showcase their creativity. It also supports the management of club activities.
+BranaSiel Hub is a web-based platform designed to help university art club members share their artwork, discover creative inspiration, and showcase their creativity. It also supports the management of club activities.
 
 ## Objectives
 
