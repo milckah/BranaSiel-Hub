@@ -12,28 +12,10 @@ BranaSiel Hub is a web-based platform designed to help university art club membe
 - Help manage club attendance and membership payments.
 - Allow the club president to review artwork and provide feedback.
 
-## Planned Features
 
-- **Home Page:** Introduces Branna and its purpose.
-- **Artwork Gallery:** Displays artwork created by club members.
-- **Artwork Submission:** Provides a form for submitting weekly artwork.
-- **Club Management:** Organizes attendance, membership payment records, artwork feedback, and group project progress.
-- **About Page:** Provides information about the art club and the platform.
-
-## Technologies
-
-- HTML (Phase 1)
-
-## Project Structure
-
-```text
-branna/
-├── index.html
-└── README.md
-```
-
-Additional HTML pages will be added as development progresses.
-
-## Project Status
-
-Currently in Phase 1: HTML structure and page development.
+GROUP MEMBERS         ID         GITHUB LINK
+MILKA YITBARECK      1028/17     https://github.com/milckah       
+MIKIALE GOITOM       1015/17     https://github.com/mikilg 
+MIHERET TEFERA       1009/17     https://github.com/miheret12
+MIKIYAS LEMMA        1020/17     https://github.com/mikiyas-l
+MUBAREK JEMAL        1058/17       https://github.com/Mubarek-JY
