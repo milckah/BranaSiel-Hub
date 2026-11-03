@@ -1,1 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Artwork | BranaSiel Hub</title>
+</head>
+<body>
+<header>
+    <h1>BranaSiel Hub</h1>
+    <p>Our University's Art Club Management and Showcase Platform</p>
+    <p>Where creativity meets collaboration.</p>
 
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="submit.html">Submit Artwork</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="announcements.html">Announcements</a> |
+        <a href="inspiration.html">Inspiration</a> |
+        <a href="about.html">About Us</a> |
+        <a href="login.html">Login</a> |
+        <a href="register.html">Register</a> |
+        
+    </nav>
+
+    <nav aria-label="Club management navigation">
+        <h2>Club Management</h2>
+        
+        <a href="management.html">Management Dashboard</a> |
+        <a href="members.html">Members</a> |
+        <a href="attendance.html">Attendance</a> |
+        <a href="payments.html">Payments</a> |
+        
+    </nav>
+</header>
+
+<main>
+
+<section>
+    <h2>Submit Your Artwork</h2>
+    <p>Share your creativity with the BranaSiel community.</p>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+        <p>
+            <label for="artist">Artist Name:</label><br>
+            <input type="text" id="artist" name="artist" required>
+        </p>
+
+        <p>
+            <label for="sid">Student ID:</label><br>
+            <input type="text" id="sid" name="student_id" required>
+        </p>
+
+        <p>
+            <label for="title">Artwork Title:</label><br>
+            <input type="text" id="title" name="artwork_title" required>
+        </p>
+
+        <p>
+            <label for="category">Artwork Category:</label><br>
+            <select id="category" name="category" required>
+                <option>Drawing and Sketching</option>
+                <option>Painting</option>
+                <option>Digital Art</option>
+                <option>Photography</option>
+                <option>Graphic Design</option>
+                <option>Crafts</option>
+                <option>Other</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="description">Artwork Description:</label><br>
+            <textarea id="description" name="description" rows="6" cols="45" required></textarea>
+        </p>
+
+        <p>
+            <label for="artfile">Select Artwork Image:</label><br>
+            <input type="file" id="artfile" name="artwork_file" accept="image/*">
+        </p>
+
+        <p>
+            <label for="challenge">Weekly Challenge (if applicable):</label><br>
+            <input type="text" id="challenge" name="challenge">
+        </p>
+
+        <p>
+            <input type="checkbox" id="permission" name="permission" required>
+            <label for="permission">I confirm that this is my work and agree that it may be displayed in the club gallery.</label>
+        </p>
+
+        <button type="submit">Submit Artwork</button>
+        <button type="reset">Clear Form</button>
+    </form>
+</section>
+
+<section>
+    <h2>Submission Guidelines</h2>
+    <ul>
+        <li>Submit your own original artwork.</li>
+        <li>Provide an appropriate title and description.</li>
+        <li>Select the correct artwork category.</li>
+        <li>Follow the weekly challenge instructions when participating.</li>
+    </ul>
+   </section>
+
+</main>
+
+<footer>
+    <hr>
+    <h2>BranaSiel Hub</h2>
+    <p>Share creativity. Build community. Inspire one another.</p>
+    <p>Email: <a href="mailto:artclub@example.edu">artclub@example.edu</a></p>
+    <p>Location: University Campus</p>
+    <p>&copy; 2026 BranaSiel Hub. All rights reserved.</p>
+</footer>
+</body>
+</html>
