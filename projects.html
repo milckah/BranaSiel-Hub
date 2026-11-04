@@ -1,1 +1,141 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Group Projects | BranaSiel Hub</title>
+  </head>
+  <body>
+    <header>
+      <h1>BranaSiel Hub</h1>
+      <p>Our University's Art Club Management and Showcase Platform</p>
+      <p>Where creativity meets collaboration.</p>
 
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a> | <a href="gallery.html">Gallery</a> |
+        <a href="submit.html">Submit Artwork</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="announcements.html">Announcements</a> |
+        <a href="inspiration.html">Inspiration</a> |
+        <a href="about.html">About Us</a> | <a href="login.html">Login</a> |
+        <a href="register.html">Register</a> |
+      </nav>
+
+      <nav aria-label="Club management navigation">
+        <h2>Club Management</h2>
+
+        <a href="management.html">Management Dashboard</a> |
+        <a href="members.html">Members</a> |
+        <a href="attendance.html">Attendance</a> |
+        <a href="payments.html">Payments</a> |
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Creative Group Projects</h2>
+        <p>Great ideas grow when artists work together.</p>
+      </section>
+
+      <section>
+        <h2>Active Projects</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Project</th>
+              <th>Description</th>
+              <th>Team</th>
+              <th>Start Date</th>
+              <th>Target Date</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Campus in Colors</td>
+              <td>A collaborative artwork inspired by university life.</td>
+              <td>Hana, Dawit, Sara</td>
+              <td>2026-10-20</td>
+              <td>2026-11-20</td>
+              <td>In Progress</td>
+            </tr>
+            <tr>
+              <td>Culture Through Art</td>
+              <td>A collection celebrating cultural diversity.</td>
+              <td>Creative Team B</td>
+              <td>2026-10-25</td>
+              <td>2026-11-25</td>
+              <td>Planning</td>
+            </tr>
+            <tr>
+              <td>Art Club Exhibition</td>
+              <td>Prepare selected works for a club exhibition.</td>
+              <td>All Members</td>
+              <td>2026-11-01</td>
+              <td>2026-12-01</td>
+              <td>In Progress</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section>
+        <h2>Propose a New Project</h2>
+        <form action="#" method="post">
+          <p>
+            <label for="projectname">Project Title:</label><br />
+            <input type="text" id="projectname" name="project_title" required />
+          </p>
+
+          <p>
+            <label for="projectdesc">Project Description:</label><br />
+            <textarea
+              id="projectdesc"
+              name="description"
+              rows="5"
+              cols="45"
+              required
+            ></textarea>
+          </p>
+
+          <p>
+            <label for="team">Proposed Team Members:</label><br />
+            <textarea
+              id="team"
+              name="team_members"
+              rows="3"
+              cols="45"
+            ></textarea>
+          </p>
+
+          <p>
+            <label for="deadline">Expected Completion Date:</label><br />
+            <input type="date" id="deadline" name="deadline" />
+          </p>
+
+          <button type="submit">Propose Project</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Project Progress Stages</h2>
+        <ol>
+          <li>Idea and planning</li>
+          <li>Team formation</li>
+          <li>Work in progress</li>
+          <li>Review and feedback</li>
+          <li>Completed and showcased</li>
+        </ol>
+      </section>
+    </main>
+
+    <footer>
+      <hr />
+      <h2>BranaSiel Hub</h2>
+      <p>Share creativity. Build community. Inspire one another.</p>
+      <p>Email: <a href="mailto:artclub@example.edu">artclub@example.edu</a></p>
+      <p>Location: University Campus</p>
+      <p>&copy; 2026 BranaSiel Hub. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

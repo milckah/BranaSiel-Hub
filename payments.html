@@ -1,1 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membership Payments | BranaSiel Hub</title>
+  </head>
+  <body>
+    <header>
+      <h1>BranaSiel Hub</h1>
+      <p>Our University's Art Club Management and Showcase Platform</p>
+      <p>Where creativity meets collaboration.</p>
 
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a> | <a href="gallery.html">Gallery</a> |
+        <a href="submit.html">Submit Artwork</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="announcements.html">Announcements</a> |
+        <a href="inspiration.html">Inspiration</a> |
+        <a href="about.html">About Us</a> | <a href="login.html">Login</a> |
+        <a href="register.html">Register</a> |
+      </nav>
+
+      <nav aria-label="Club management navigation">
+        <h2>Club Management</h2>
+
+        <a href="management.html">Management Dashboard</a> |
+        <a href="members.html">Members</a> |
+        <a href="attendance.html">Attendance</a> |
+        <a href="payments.html">Payments</a> |
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Membership Payments</h2>
+        <p>Keep a clear record of monthly club membership contributions.</p>
+      </section>
+
+      <section>
+        <h2>Record a Payment</h2>
+        <form action="#" method="post">
+          <p>
+            <label for="payer">Member Name:</label><br />
+            <input type="text" id="payer" name="member_name" required />
+          </p>
+
+          <p>
+            <label for="payerid">Student ID:</label><br />
+            <input type="text" id="payerid" name="student_id" required />
+          </p>
+
+          <p>
+            <label for="month">Payment Month:</label><br />
+            <select id="month" name="month">
+              <option>January</option>
+              <option>February</option>
+              <option>March</option>
+              <option>April</option>
+              <option>May</option>
+              <option>June</option>
+              <option>July</option>
+              <option>August</option>
+              <option>September</option>
+              <option>October</option>
+              <option>November</option>
+              <option>December</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="amount">Amount:</label><br />
+            <input
+              type="number"
+              id="amount"
+              name="amount"
+              min="0"
+              step="0.01"
+              required
+            />
+          </p>
+
+          <p>
+            <label for="paydate">Payment Date:</label><br />
+            <input type="date" id="paydate" name="payment_date" />
+          </p>
+
+          <p>
+            <label for="paystatus">Payment Status:</label><br />
+            <select id="paystatus" name="payment_status">
+              <option>Paid</option>
+              <option>Pending</option>
+              <option>Waived</option>
+            </select>
+          </p>
+
+          <button type="submit">Save Payment Record</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>Sample Payment Register</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Member</th>
+              <th>Student ID</th>
+              <th>Month</th>
+              <th>Amount</th>
+              <th>Date</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Hana T.</td>
+              <td>AASTU-001</td>
+              <td>November</td>
+              <td>100.00</td>
+              <td>2026-11-02</td>
+              <td>Paid</td>
+            </tr>
+            <tr>
+              <td>Dawit K.</td>
+              <td>AASTU-002</td>
+              <td>November</td>
+              <td>100.00</td>
+              <td>Not recorded</td>
+              <td>Pending</td>
+            </tr>
+            <tr>
+              <td>Sara M.</td>
+              <td>AASTU-003</td>
+              <td>November</td>
+              <td>100.00</td>
+              <td>2026-11-03</td>
+              <td>Paid</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>
+          Use this page for record-keeping only. Do not collect bank card
+          details on this demonstration website.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <hr />
+      <h2>BranaSiel Hub</h2>
+      <p>Share creativity. Build community. Inspire one another.</p>
+      <p>Email: <a href="mailto:artclub@example.edu">artclub@example.edu</a></p>
+      <p>Location: University Campus</p>
+      <p>&copy; 2026 BranaSiel Hub. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
