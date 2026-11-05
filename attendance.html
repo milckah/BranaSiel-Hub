@@ -1,1 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance | BranaSiel Hub</title>
+</head>
+<body>
+<header>
+    <h1>BranaSiel Hub</h1>
+    <p>Our University's Art Club Management and Showcase Platform</p>
+    <p>Where creativity meets collaboration.</p>
 
+    <nav aria-label="Main navigation">
+        <a href="index.html">Home</a> |
+        <a href="gallery.html">Gallery</a> |
+        <a href="submit.html">Submit Artwork</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="announcements.html">Announcements</a> |
+        <a href="inspiration.html">Inspiration</a> |
+        <a href="about.html">About Us</a> |
+        <a href="login.html">Login</a> |
+        <a href="register.html">Register</a> |
+        
+    </nav>
+
+    <nav aria-label="Club management navigation">
+        <h2>Club Management</h2>
+        
+        <a href="management.html">Management Dashboard</a> |
+        <a href="members.html">Members</a> |
+        <a href="attendance.html">Attendance</a> |
+        <a href="payments.html">Payments</a> |
+        
+    </nav>
+</header>
+
+
+<main>
+
+<section>
+    <h2>Meeting Attendance</h2>
+    <p>Record participation in in-person club meetings.</p>
+</section>
+
+<section>
+    <h2>Attendance Recording Form</h2>
+    <form action="#" method="post">
+        <p>
+            <label for="meetingdate">Meeting Date:</label><br>
+            <input type="date" id="meetingdate" name="meeting_date" required>
+        </p>
+
+        <p>
+            <label for="meetingtitle">Meeting or Activity:</label><br>
+            <input type="text" id="meetingtitle" name="meeting_title" required>
+        </p>
+
+        <p>
+            <label for="membername">Member Name:</label><br>
+            <input type="text" id="membername" name="member_name" required>
+        </p>
+
+        <p>
+            <label for="membernumber">Student ID:</label><br>
+            <input type="text" id="membernumber" name="student_id" required>
+        </p>
+
+        <p>
+            <label for="status">Attendance Status:</label><br>
+            <select id="status" name="status">
+                <option>Present</option>
+                <option>Absent</option>
+                <option>Excused</option>
+            </select>
+        </p>
+
+        <p>
+            <label for="attendancenote">Notes (optional):</label><br>
+            <textarea id="attendancenote" name="notes" rows="3" cols="40"></textarea>
+        </p>
+
+        <button type="submit">Record Attendance</button>
+    </form>
+</section>
+
+<section>
+    <h2>Sample Attendance Register</h2>
+    <table border="1">
+        <thead>
+            <tr><th>Date</th><th>Meeting</th><th>Member</th><th>Student ID</th><th>Status</th></tr>
+        </thead>
+        <tbody>
+            <tr><td>2026-11-06</td><td>Weekly Art Meeting</td><td>Hana T.</td><td>AASTU-001</td><td>Present</td></tr>
+            <tr><td>2026-11-06</td><td>Weekly Art Meeting</td><td>Dawit K.</td><td>AASTU-002</td><td>Present</td></tr>
+            <tr><td>2026-11-06</td><td>Weekly Art Meeting</td><td>Sara M.</td><td>AASTU-003</td><td>Excused</td></tr>
+        </tbody>
+    </table>
+</section>
+
+</main>
+
+<footer>
+    <hr>
+    <h2>BranaSiel Hub</h2>
+    <p>Share creativity. Build community. Inspire one another.</p>
+    <p>Email: <a href="mailto:artclub@example.edu">artclub@example.edu</a></p>
+    <p>Location: University Campus</p>
+    <p>&copy; 2026 BranaSiel Hub. All rights reserved.</p>
+</footer>
+</body>
+</html>
