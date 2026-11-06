@@ -1,8 +1,8 @@
-# BranaSiel Hub — University Art Club Management & Showcase Platform
+# BranaSiel Hub: AASTU'S Art Club Management & Showcase Platform
 
 ## About the Project
 
-BranaSiel Hub is a web-based platform designed to help university art club members share their artwork, discover creative inspiration, and showcase their creativity. It also supports the management of club activities.
+BranaSiel Hub is a web-based platform designed to help our university's art club members share their artwork, discover creative inspiration, and showcase their creativity. It also supports the management of club activities.
 
 ## Objectives
 
@@ -15,7 +15,8 @@ BranaSiel Hub is a web-based platform designed to help university art club membe
 
 GROUP MEMBERS  -----   ID -----    GITHUB LINK
 
-MILKA YITBARECK      1028/17     https://github.com/milckah       
+MILKA YITBARECK      1028/17     https://github.com/milckah   
+
 MIKIALE GOITOM       1015/17     https://github.com/mikilg 
 
 MIHERET TEFERA       1009/17     https://github.com/miheret12
